@@ -1,0 +1,9 @@
+git --version
+git config --global user.name "vinay-chowdary"
+git config --global user.email "vinaychowdary.dev@gmail.com"
+git init
+git add filename
+git status
+git log
+git log --oneline
+
