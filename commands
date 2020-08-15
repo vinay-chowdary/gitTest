@@ -20,3 +20,5 @@ git remote -v : verify remote origin
 git remote set-url origin "url" : to change remote origin
 git checkout <branch name>
 git merge <branch name>
+git branch : displays all branches
+git branch <branchname> : create branch
