@@ -4,6 +4,15 @@ git config --global user.email "vinaychowdary.dev@gmail.com"
 git init
 git add filename
 git status
+git rm --cached -r .    : to remove staged files
 git log
 git log --oneline
-git checkout <commit> <file>
+git diff <file>
+git checkout <commit> <filename>
+git reset HEAD <filename> : reset HEAD to previous commit
+git checkout -- <filename> : discards all changes after the previous commit
+git restore <file>         : to discard changes in working directory
+git remote add origin "url"
+git push origin master -u
+git clone "url" <optional:filename>
+git commit -a --allow-empty-message -m ""
