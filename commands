@@ -6,4 +6,4 @@ git add filename
 git status
 git log
 git log --oneline
-
+git checkout <commit> <file>
